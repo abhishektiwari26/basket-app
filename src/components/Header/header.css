@@ -1,0 +1,16 @@
+.header{
+    background-color: #222222;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.basket-icon{
+    color: white;
+    font-size: 8rem;
+}
+.title{
+    color: white;
+    font-size: 1.5rem;
+    margin: 16px 0;
+}

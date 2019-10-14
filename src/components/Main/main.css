@@ -1,0 +1,81 @@
+.main-container{
+    width: 100%;
+}
+
+.groceries-container{
+    width: 30%;
+    float: left;
+    margin: 0px 120px;
+}
+
+.groceries-header, .basket-header{
+    margin: 20px 0px 20px 40px;
+}
+
+.groceries-header h3, .basket-header h3{
+    font-size: 1.17em;
+    font-weight: bold;
+}
+
+.groceries-container ul, .basket-container ul{
+    list-style-type: none;
+}
+
+.groceries-container ul li, .basket-container ul li{
+    margin: 7px 0;
+    padding: 10px;
+    background: #efefef;
+}
+
+/* .basket-container ul li:active{
+    text-decoration: line-through;
+} */
+
+
+.groceries-container ul li:nth-child(odd), .basket-container ul li:nth-child(odd){
+    background: #f9f9f9; 
+}
+
+.groceries-ul li:hover i{
+    color: green;
+    font-size: 1.1em;
+}
+
+.basket-ul li:hover i{
+    color: red;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.basket-container{
+    width: 30%;
+    float: right;
+    margin: 0px 120px;
+}
+i{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.basket-header h3{
+    display: inline-block;
+}
+
+.trash-icon{
+    margin-left: 240px;
+    color: #f9b7b5;
+}
+
+.trash-icon:hover{
+    color: red;
+}
+
+
+.plus-icon, .minus-icon{
+    /* cursor: pointer; */
+    color: white;
+}
+
+.eliminate{
+    text-decoration: line-through;
+}
